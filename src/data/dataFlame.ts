@@ -1598,7 +1598,7 @@ export const dataFlame = [
     value: 333,
     color: "#d5d4d9",
     x: -3,
-    low: 40,
+    low: 24,
     high: 45
   },
   {
@@ -1607,8 +1607,8 @@ export const dataFlame = [
     value: 333,
     color: "#d5d4d9",
     x: -3,
-    low: 20,
-    high: 40
+    low: 12,
+    high: 24
   },
   {
     name: "Head of Key Acc...",
@@ -1617,7 +1617,7 @@ export const dataFlame = [
     color: "#d5d4d9",
     x: -3,
     low: 0,
-    high: 20
+    high: 12
   },
   {
     name: "~",
