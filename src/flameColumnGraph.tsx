@@ -8,7 +8,7 @@ import "./styles.css";
 
 const FlameColumnGraph = () => {
   const navigate = useNavigate();
-  const [optionsList, setOptionsList] = useState();
+  const [optionsList, setOptionsList] = useState(null);
 
   HighchartsMore(Highcharts);
 
@@ -62,7 +62,7 @@ const FlameColumnGraph = () => {
     "#898989",
     "#282828",
     "#C8C8C8",
-    "#F4F4F4",
+    "#F4F4F4"
   ];
 
   const [chartOptions] = useState({
@@ -113,8 +113,8 @@ const FlameColumnGraph = () => {
         <div style={{ width: optionsList ? "60%" : "100%" }}>
           <HighchartsReact highcharts={Highcharts} options={chartOptions} />
           <div className="gradient-legend-container">
+            <div className="importance">Importance:</div>
             <div className="linear-gradient-legend">
-              <div className="gradient"></div>
               <div className="labels">
                 <span>High</span>
                 <span>Medium</span>
@@ -135,6 +135,9 @@ const FlameColumnGraph = () => {
               width: "40%"
             }}
           >
+            <div className="closeIcon" onClick={() => setOptionsList(null)}>
+              x
+            </div>
             High chart data Content Widget
             <div
               style={{
