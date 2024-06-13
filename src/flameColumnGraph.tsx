@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import HighchartsMore from "highcharts/highcharts-more";
-import { dataFlame } from "./data/dataFlame";
+import { flameData } from "./data/dataFlame";
 import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
@@ -94,7 +94,7 @@ const FlameColumnGraph = () => {
     series: [
       {
         type: "flame",
-        data: dataFlame.map(function (point, index) {
+        data: flameData.map(function (point, index) {
           return {
             ...point,
             color: colors[Math.floor(index % colors.length)]
@@ -104,9 +104,11 @@ const FlameColumnGraph = () => {
     ],
     tooltip: {
       headerFormat: "",
-      pointFormat: "selfSize of <b>{point.name}</b> is <b>{point.value}</b>"
+      pointFormat:
+        "selfSize of <b>{point.name}</b> is <b>{point.low}-{point.high}</b>"
     }
   });
+
   return (
     <>
       <div style={{ display: "flex", width: "100%" }}>
