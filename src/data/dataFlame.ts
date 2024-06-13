@@ -3981,8 +3981,98 @@ export const flameData = [
     value: 333,
     color: "#d5d4d9",
     x: -6,
-    low: 45,
+    low: 47,
     high: 48
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 46.8,
+    high: 47
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 46.5,
+    high: 46.8
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 46.3,
+    high: 46.5
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 46.2,
+    high: 46.3
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 46,
+    high: 47
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 45.8,
+    high: 46
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 45.3,
+    high: 45.8
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 45.1,
+    high: 45.3
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -6,
+    low: 45,
+    high: 45.1
   },
   {
     name: "",
@@ -4721,8 +4811,28 @@ export const flameData = [
     value: 333,
     color: "#d5d4d9",
     x: -5,
-    low: 45,
+    low: 47,
     high: 48
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -5,
+    low: 46.5,
+    high: 47
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -5,
+    low: 45,
+    high: 46
   },
   {
     name: "",
@@ -5401,8 +5511,28 @@ export const flameData = [
     value: 333,
     color: "#d5d4d9",
     x: -4,
-    low: 45,
+    low: 47,
     high: 48
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -4,
+    low: 46,
+    high: 47
+  },
+  {
+    name: "",
+    id: "12",
+    parent: "2",
+    value: 333,
+    color: "#d5d4d9",
+    x: -4,
+    low: 45,
+    high: 46
   },
   {
     name: "",
