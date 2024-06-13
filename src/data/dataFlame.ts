@@ -5919,7 +5919,7 @@ export const flameData = [
     high: 50
   },
   {
-    name: "VP",
+    name: "",
     id: "11",
     parent: "3",
     value: 333,
